@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\CM.Shared\CM.Shared.Kernel\CM.Shared.Kernel.csproj" />
+    <ProjectReference Include="..\..\CM.Services.Wallet\CM.Services.Wallet.Contract\CM.Services.Wallet.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

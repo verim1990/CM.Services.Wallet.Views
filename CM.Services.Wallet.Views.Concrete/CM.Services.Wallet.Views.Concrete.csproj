@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.0.100" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CM.Services.Wallet\CM.Services.Wallet.Contract\CM.Services.Wallet.Contract.csproj" />
+    <ProjectReference Include="..\CM.Services.Wallet.Views.Contract\CM.Services.Wallet.Views.Contract.csproj" />
+    <ProjectReference Include="..\CM.Services.Wallet.Views.Infrastracture\CM.Services.Wallet.Views.Infrastracture.csproj" />
+  </ItemGroup>
+
+</Project>
